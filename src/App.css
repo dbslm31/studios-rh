@@ -146,6 +146,7 @@ font-weight: 300;
 /* ----------------------------- About -------------------------------- */
 
 .about {
+  padding-top:7rem;
   display:flex;
   flex-direction:column;
   justify-content: center;
@@ -179,7 +180,8 @@ font-weight: 300;
   align-items: center;
   justify-content: center;
   background-color:#fff;
-  height:100vh;
+  height:fit-content;
+  margin-bottom:10rem;
   
 }
 
@@ -197,7 +199,7 @@ font-weight: 300;
 .timeline {
   height:1.5px;
   background-color: var(--dark-purple);
-  width:100%;
+  width:90vw;
   max-width:900px;
   
 }
@@ -213,12 +215,35 @@ font-weight: 300;
 .timeline-item{
   background-color:#fff;
   border: 2px solid var(--dark-purple);
-  width:20px;
-  height:20px;
+  width:30px;
+  height:30px;
   border-radius: 50%;
-  margin-top:-10px;
+  margin-top:-15px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size:10px;
+  font-weight:500;
+}
+.timeline-item:hover{
+  cursor: pointer
+}
+.timeline-item.active {
+  background-color: #CCAAF5;
 }
 
 .description {
+  margin-top:4rem;
+  width: 100%;
+  max-width:900px;
+  padding:1rem;
+  border-radius:25px;
+  border:1px solid var(--dark-purple);
   text-align:center;
+}
+
+/* ----------------------------- How it works -------------------------------- */
+
+.how{
+  height:100vh;
 }

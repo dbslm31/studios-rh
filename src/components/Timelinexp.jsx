@@ -14,12 +14,13 @@ const Timelinexp = ({ timelineItems }) => {
         {timelineItems.map((item) => (
           <div
             key={item.id}
-            className="timeline-item"
+            className={`timeline-item${selectedItem === item ? " active" : ""}`}
             onClick={() => handleClick(item)}
-          ></div>
+          >
+            <p>{item.id}</p>
+          </div>
         ))}
       </div>
-
       <div className="item__description">
         {selectedItem && (
           <Description
