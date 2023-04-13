@@ -6,12 +6,27 @@ body {
 h1{
   font-size:70px;
   line-height:1;
+  margin-top : 1rem;
 }
 
 h2 {
   font-family: 'Poppins', sans-serif !important;
   text-transform: uppercase;
   font-size:14px !important;
+  font-weight:400;
+}
+
+.pink-btn{
+  font-family: 'Poppins', sans-serif;
+  padding:0 20px;
+  height:35px;
+  margin-left:3rem;
+  background-color:var(--pink);
+  color:var(--dark-purple);
+  font-weight:600;
+  font-size:14px;
+  border:none;
+  border-radius:15px;
 }
 
 

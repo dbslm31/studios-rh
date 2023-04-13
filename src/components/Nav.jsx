@@ -12,7 +12,7 @@ const Nav = () => {
           <li>Le blog</li>
         </ul>
       </div>
-      <button className="nav__contact">Contactez-moi</button>
+      <button className="pink-btn">Contactez-moi</button>
     </nav>
   );
 };

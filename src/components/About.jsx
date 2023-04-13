@@ -25,6 +25,7 @@ const About = () => {
         vitae et impedit fugiat aut eaque aperiam non cumque officia sit nihil
         magnam ut voluptas nihil.
       </p>
+      <button className="pink-btn about-btn">On discute ?</button>
     </section>
   );
 };
