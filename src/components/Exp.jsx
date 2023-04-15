@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Slide, Fade } from "react-awesome-reveal";
-import Wave2 from "../assets/waves2.png";
+
 // Components
 import Timelinexp from "./Timelinexp";
 
@@ -20,7 +20,6 @@ const Exp = () => {
         <Timelinexp timelineItems={timelineItems} />
       </Fade>
       <div className="exp__description"></div>
-      <img src={Wave2} alt="Vecteur vague" className="wave_down" />
     </section>
   );
 };
