@@ -7,6 +7,7 @@ import About from "./components/About";
 import Exp from "./components/Exp";
 import Services from "./components/Services";
 import Testimonials from "./components/Testimonials";
+import BlogArticles from "./components/BlogArticles";
 
 // Style
 import "./App.css";
@@ -20,6 +21,7 @@ function App() {
       <Exp />
       <Services />
       <Testimonials />
+      <BlogArticles />
     </div>
   );
 }
