@@ -1,7 +1,10 @@
+import blog1 from "./assets/blogcover1.png";
+
 const blogData = [
   {
     id: "ART1",
-    img: "",
+    bgColor: "#CCAAF5",
+    img: blog1,
     title: "Titre de l'article",
     highlight:
       "Lorem ipsum dolor sit amet. Sed veniam provident ad corporis minus et explicabo officiis est sunt possimus sed dolore. Lorem ipsum dolor sit amet. Sed veniam provident ad corporis minus et explicabo officiis est sunt possimus sed dolore ",
@@ -9,7 +12,7 @@ const blogData = [
   },
   {
     id: "ART2",
-    img: "",
+    bgColor: "#FFC7F3",
     title: "Titre de l'article",
     highlight:
       "Lorem ipsum dolor sit amet. Sed veniam provident ad corporis minus et explicabo officiis est sunt possimus sed dolore  Lorem ipsum dolor sit amet. Sed veniam provident ad...",
@@ -17,7 +20,7 @@ const blogData = [
   },
   {
     id: "ART3",
-    img: "",
+    bgColor: "#D4CEFB",
     title: "Titre de l'article",
     highlight:
       "Lorem ipsum dolor sit amet. Sed veniam provident ad corporis minus et explicabo officiis est sunt possimus sed dolore...",
@@ -25,7 +28,7 @@ const blogData = [
   },
   {
     id: "ART4",
-    img: "",
+    bgColor: "#FADDFF",
     title: "Titre de l'article",
     highlight:
       "Lorem ipsum dolor sit amet. Sed veniam provident ad corporis minus et explicabo officiis est sunt possimus sed dolore...",

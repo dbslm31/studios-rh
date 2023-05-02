@@ -1,15 +1,27 @@
 import React from "react";
 
-const BlogCard = ({ data }) => {
+const BlogCard = (props) => {
+  const { img, title, highlight, link, size, className, bgColor } = props;
+
+  const cardSize = size === "small" ? "small-card" : "large-card";
+  const classNames = `blog-card ${cardSize} ${className}`;
+  const cardStyle = {
+    backgroundColor: bgColor,
+  };
+
   return (
-    <div className="blog-card">
-      <div className="blog-card-img">
-        <img src={data.img} alt="blog cover" />
-      </div>
+    <div className={classNames} style={cardStyle}>
+      {img && (
+        <div className="blog-card-img">
+          <img src={img} alt="blog cover" />
+        </div>
+      )}
       <div className="blog-card-content">
-        <h3>{data.title}</h3>
-        <p>{data.highlight}</p>
-        <a href={data.link}>Lire plus</a>
+        <h3>{title}</h3>
+        <p>{highlight}</p>
+        <a href={link} className="read-more">
+          Lire plus ➔
+        </a>
       </div>
     </div>
   );

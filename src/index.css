@@ -29,5 +29,16 @@ h2 {
   border-radius:15px;
 }
 
+.btn-secondary {
+  font-family: 'Poppins', sans-serif;
+  padding:10px 20px;
+  background-color:transparent;
+  color:var(--dark-purple);
+  font-weight:600;
+  font-size:14px;
+  border:1px solid var(--dark-purple) ;
+  border-radius:10px;
+}
+
 
 
